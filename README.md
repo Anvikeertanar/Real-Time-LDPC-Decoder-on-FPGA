@@ -68,7 +68,7 @@ The system:
 ---
 
 ## System Architecture
-
+<img src="Images/BLOCK DIAGRAM.png" width="750">
 
 
 ### Data Flow
