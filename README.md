@@ -72,7 +72,6 @@ The system:
   <img src="BLOCKDIAGRAM.png" width="750">
 </p>
 
-
 ### Data Flow
 
 PC
@@ -155,26 +154,26 @@ Key development stages included:
 ## Performance Results
 
 ### BER Performance
+![BER Graph](BERVSSNR.png)
 
-[Insert BER Graph]
 
 The Bit Error Rate decreases significantly as the signal-to-noise ratio increases, validating the effectiveness of the LDPC decoder.
 
 ### Vivado Simulation
 
-[Insert Vivado Waveform]
+![Vivado Simulation](BEHAVIORALSIMULATION.png)
+
 
 The simulation confirms correct syndrome computation, iterative decoding, and successful convergence.
 
 ### UART Validation
 
-[Insert PuTTY Output]
-
 Real-time communication between FPGA and PC was validated using UART and PuTTY.
 
 ### FPGA Hardware Validation
 
-[Insert FPGA Images]
+![Successful Decoding](SUCCESSFULDECODING.png)
+![Decoding Failure](DECODINGFAILURE.png)
 
 Successful and unsuccessful decoding cases were verified through LED indicators and output monitoring.
 
